@@ -7,20 +7,20 @@ terraform {
     }
   }
 
-  #   cloud {}
-  # }
-  # provider "aws" {
-  #   region = var.aws-region
+    cloud {}
+  }
+  provider "aws" {
+    region = var.aws-region
 }
 
 
-# terraform { 
-#   cloud { 
+terraform { 
+  cloud { 
 
-#     organization = "barry-devops" 
+    organization = "barry-devops" 
 
-#     workspaces { 
-#       name = "netflix-clone-project" 
-#     } 
-#   } 
-# }
+    workspaces { 
+      name = "netflix-clone-project" 
+    } 
+  } 
+}
